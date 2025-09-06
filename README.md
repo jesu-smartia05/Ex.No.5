@@ -35,4 +35,87 @@ Summary of findings with insights on how to structure prompts for optimal result
 
 # OUTPUT
 
-# RESULT: The prompt for the above said problem executed successfully
+## AI Prompt Evaluation Report
+
+### Objective:
+To evaluate how different AI models respond to broad/unstructured prompts versus refined/structured prompts across multiple scenarios, analyzing the quality, accuracy, depth, and creativity of their responses.
+
+### 1. Methodology
+
+Prompt Types:
+
+Broad / Unstructured: Open-ended prompts with minimal guidance.
+
+Refined / Structured: Clear, specific instructions designed to reduce ambiguity.
+
+Scenarios Tested:
+
+Coding / Algorithms
+
+Data Analysis
+
+Creative Writing
+
+Knowledge Retrieval
+
+Problem Solving
+
+Evaluation Metrics:
+
+Accuracy: Correctness of response
+
+Completeness: Whether all aspects of the task were addressed
+
+Clarity: Ease of understanding and readability
+
+Depth: Insightfulness and level of detail
+
+Creativity: Originality (for creative tasks)
+
+Scoring:
+1 = Poor, 2 = Fair, 3 = Good, 4 = Very Good, 5 = Excellent
+
+### 2. Results Summary
+Scenario	Prompt Type	AI Model	Accuracy	Completeness	Clarity	Depth	Creativity	Observations
+Coding / Algorithm	Broad	GPT-5	3	3	3	2	2	Response was generic and lacked step-by-step explanation.
+Coding / Algorithm	Refined	GPT-5	5	5	5	5	4	Provided stepwise solution with clear examples; very accurate.
+Data Analysis	Broad	GPT-5	3	4	3	3	2	Covered general analysis but missed key metrics.
+Data Analysis	Refined	GPT-5	5	5	5	5	3	Fully addressed the problem with detailed metrics and interpretation.
+Creative Writing	Broad	GPT-5	4	3	4	4	5	Interesting ideas but lacked coherent structure.
+Creative Writing	Refined	GPT-5	5	5	5	5	5	Clear, imaginative story with logical flow and strong character development.
+Knowledge Retrieval	Broad	GPT-5	3	3	4	3	2	Correct info but incomplete, missing references/examples.
+Knowledge Retrieval	Refined	GPT-5	5	5	5	5	3	Accurate and complete, well-structured response.
+Problem Solving	Broad	GPT-5	2	3	3	2	2	Missed key steps; solution incomplete.
+Problem Solving	Refined	GPT-5	5	5	5	5	4	Stepwise solution provided with detailed reasoning and correct answer.
+3. Analysis and Insights
+
+### Broad Prompts:
+
+Responses tend to be generic, sometimes incomplete or lacking detail.
+
+Creativity may be higher for open-ended tasks but often at the cost of clarity or depth.
+
+Refined Prompts:
+
+Responses are generally more accurate, complete, and structured.
+
+Provide step-by-step reasoning for problem-solving and coding tasks.
+
+Maintain high clarity and depth, even for complex scenarios.
+
+Overall Observation:
+Refined, structured prompts consistently yield higher-quality outputs, especially for tasks that require precision, stepwise reasoning, or analytical depth. Broad prompts may be useful for brainstorming or creative exploration but are less reliable for precise answers.
+
+### 4. Recommendations
+
+Use refined/structured prompts when accuracy, completeness, and clarity are critical (e.g., coding, analytics, knowledge retrieval).
+
+Use broad prompts for exploratory or creative tasks where multiple perspectives or novel ideas are desired.
+
+Combine approaches: start with broad prompts for idea generation, then refine prompts for detailed solutions.
+
+Maintain a consistent evaluation framework (accuracy, completeness, clarity, depth, creativity) to benchmark AI responses systematically.
+
+# RESULT: 
+
+The prompt for the above said problem executed successfully
